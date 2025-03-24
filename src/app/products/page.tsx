@@ -5,9 +5,10 @@ const page = () => {
 		<div
 			style={{
 				margin: '0px auto',
-				display: 'flex',
-				flexWrap: 'wrap',
-				flexDirection: 'row',
+				padding: '0 10px',
+				display: 'grid',
+				gridTemplateColumns: 'repeat(auto-fill, minmax(220px, 1fr))',
+				justifyItems: 'center',
 				gap: '20px',
 			}}
 		>
